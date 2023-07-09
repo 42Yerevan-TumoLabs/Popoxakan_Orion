@@ -11,17 +11,17 @@ app.get('/forums', (req, res) => {
 });
 
 // Route for FProfile HTML file
-app.get('/profile', (req, res) => {
+app.get('/fprofile', (req, res) => {
   res.sendFile(path.join(__dirname, 'FProfile/profile-forum.html'));
 });
 
 // Route for FCategory HTML file
-app.get('/category', (req, res) => {
+app.get('/fcategory', (req, res) => {
   res.sendFile(path.join(__dirname, 'FCategory/forums-category.html'));
 });
 
 // Route for FDiscussion HTML file
-app.get('/discussion', (req, res) => {
+app.get('/fdiscussion', (req, res) => {
   res.sendFile(path.join(__dirname, 'FDiscussion/forums-discussion.html'));
 });
 
