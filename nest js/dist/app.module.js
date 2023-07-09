@@ -16,7 +16,7 @@ const post_module_1 = require("./post/post.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
-    common_1.Module({
+    (0, common_1.Module)({
         imports: [
             typeorm_1.TypeOrmModule.forRoot({
                 type: 'postgres',
@@ -24,9 +24,9 @@ AppModule = __decorate([
                 port: 5433,
                 database: 'postgres',
                 username: 'postgres',
-                password: '8891',
-                entities: [path_1.join(__dirname, '**', '*.entity.{ts,js}')],
-                migrations: [path_1.join(__dirname, '**', '*.migration.{ts,js}')],
+                password: '',
+                entities: [(0, path_1.join)(__dirname, '**', '*.entity.{ts,js}')],
+                migrations: [(0, path_1.join)(__dirname, '**', '*.migration.{ts,js}')],
                 synchronize: true
             }),
             post_module_1.PostModule

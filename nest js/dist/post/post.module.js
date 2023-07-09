@@ -15,7 +15,7 @@ const post_service_1 = require("./post.service");
 let PostModule = class PostModule {
 };
 PostModule = __decorate([
-    common_1.Module({
+    (0, common_1.Module)({
         controllers: [post_controller_1.PostController],
         providers: [post_service_1.PostService],
         imports: [typeorm_1.TypeOrmModule.forFeature([post_entity_1.PostEntity])]

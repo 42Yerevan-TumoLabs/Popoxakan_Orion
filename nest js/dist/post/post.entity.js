@@ -14,19 +14,19 @@ const typeorm_1 = require("typeorm");
 let PostEntity = class PostEntity {
 };
 __decorate([
-    typeorm_1.PrimaryGeneratedColumn(),
+    (0, typeorm_1.PrimaryGeneratedColumn)(),
     __metadata("design:type", Number)
 ], PostEntity.prototype, "id", void 0);
 __decorate([
-    typeorm_1.Column({ type: 'text' }),
+    (0, typeorm_1.Column)({ type: 'text' }),
     __metadata("design:type", String)
 ], PostEntity.prototype, "content", void 0);
 __decorate([
-    typeorm_1.Column(),
+    (0, typeorm_1.Column)(),
     __metadata("design:type", String)
 ], PostEntity.prototype, "userName", void 0);
 PostEntity = __decorate([
-    typeorm_1.Entity({ name: 'Post' })
+    (0, typeorm_1.Entity)({ name: 'Post' })
 ], PostEntity);
 exports.PostEntity = PostEntity;
 //# sourceMappingURL=post.entity.js.map
