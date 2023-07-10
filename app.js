@@ -24,8 +24,6 @@ app.get('/vikinger/*', (req, res) => {
   });
 });
 
-
-
 app.get('/', (req, res) => {res.sendFile(path.join(__dirname, 'index.html'));});
 app.get('/profile-timeline', (req, res) => {res.sendFile(path.join(__dirname, 'Profile-timeline/profile-timeline.html'));});
 app.get('/newsfeed', (req, res) => {res.sendFile(path.join(__dirname, 'Newsfeed/newsfeed.html'));});
