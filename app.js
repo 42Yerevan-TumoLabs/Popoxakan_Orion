@@ -2,7 +2,29 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+const { exec } = require('child_process');
+
+// Serve static files
 app.use(express.static(path.join(__dirname)));
+
+// Define routes for your PHP files
+app.get('/vikinger/*', (req, res) => {
+  const phpFile = req.params[0];
+  const filePath = path.join(__dirname, 'Popoxakan_Orion/vikinger', phpFile);
+
+  // Execute the PHP script using the PHP binary
+  exec(`php ${filePath}`, (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Error executing PHP script: ${error.message}`);
+      res.status(500).send('Internal Server Error');
+      return;
+    }
+    // Send the PHP script output as the response
+    res.send(stdout);
+  });
+});
+
+
 
 app.get('/', (req, res) => {res.sendFile(path.join(__dirname, 'index.html'));});
 app.get('/profile-timeline', (req, res) => {res.sendFile(path.join(__dirname, 'Profile-timeline/profile-timeline.html'));});
