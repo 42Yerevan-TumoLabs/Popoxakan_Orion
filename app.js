@@ -38,6 +38,7 @@ app.get('/members', (req, res) => {res.sendFile(path.join(__dirname, 'Members/me
 app.get('/forums', (req, res) => {res.sendFile(path.join(__dirname, 'Forums/forums.html'));});
 app.get('/forums-category', (req, res) => {res.sendFile(path.join(__dirname, 'Forums-category/forums-category.html'));});
 app.get('/forums-discussion', (req, res) => {res.sendFile(path.join(__dirname, 'Forums-discussion/forums-discussion.html'));});
+app.get('/forums-create-discussion', (req, res) => {res.sendFile(path.join(__dirname, 'Forums-create-discussion/forums-create-discussion.html'));});
 app.get('/hub-profile-info', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-profile-info/hub-profile-info.html'));});
 app.get('/hub-profile-social', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-profile-social/hub-profile-social.html'));});
 app.get('/hub-profile-notifications', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-profile-notifications/hub-profile-notifications.html'));});
