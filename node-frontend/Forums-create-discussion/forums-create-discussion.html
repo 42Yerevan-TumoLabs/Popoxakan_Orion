@@ -3600,7 +3600,7 @@
                   <div class="form-textarea" style="
     height: 50px;
 ">
-                    <textarea id="forum-post-text" name="forum-post-text" placeholder="Hi Marina! Share your post here..." style="
+                    <textarea id="create-title" name="forum-post-text" placeholder="Hi Marina! Share your post here..." style="
     height: 68px;
 "></textarea>
                     <!-- FORM TEXTAREA LIMIT TEXT -->
@@ -3652,7 +3652,7 @@
                 <div class="form-item">
                   <!-- FORM TEXTAREA -->
                   <div class="form-textarea">
-                    <textarea id="forum-post-text" name="forum-post-text" placeholder="Hi Marina! Share your post here..." style="
+                    <textarea id="create-descr" name="forum-post-text" placeholder="Hi Marina! Share your post here..." style="
     height: 200;
 "></textarea>
                     <!-- FORM TEXTAREA LIMIT TEXT -->
@@ -3700,11 +3700,46 @@
               <!-- QUICK POST FOOTER ACTIONS -->
               <div class="quick-post-footer-actions">
                 <!-- BUTTON -->
-                <p class="button void">Discard</p>
+                <p onclick="goBack()" class="button void">Go back</p>
+                <script>
+                  function goBack() {
+                    window.history.back();
+                  }
+                </script>
                 <!-- /BUTTON -->
       
                 <!-- BUTTON -->
-                <p class="button secondary">Create</p>
+                <p id="postButton" class="button secondary">Create</p>
+                <script>
+                    console.log('i am here1');
+                    document.getElementById('postButton').addEventListener('click', function() {
+                      const text_title = document.getElementById('create-title');
+                      const text_descr = document.getElementById('create-descr');
+                      const t_title = text_title.value;
+                      const t_descr = text_descr.value;
+                      console.log("Title is " + t_title);
+                      console.log("Description is " + t_descr);
+                      const data = {
+                        title: t_title,
+                        description: t_descr
+                      };
+                      fetch('/send-post-request', {
+                        method: 'POST',
+                        headers: {
+                          'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(data)
+                      })
+                              .then(response => response.json())
+                              .then(data => {
+                                // Handle the response from the server as needed
+                                console.log(data);
+                              })
+                              .catch(error => {
+                                console.error(error);
+                              });
+                    });
+                </script>
                 <!-- /BUTTON -->
               </div>
               <!-- /QUICK POST FOOTER ACTIONS -->

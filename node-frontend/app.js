@@ -1,11 +1,16 @@
 const express = require('express');
+const axios = require('axios');
 const app = express();
 const path = require('path');
+const port = 3000;
+const java_url = 'localhost:8080';
 
 const { exec } = require('child_process');
 
 // Serve static files
 app.use(express.static(path.join(__dirname)));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 // Define routes for your PHP files
 app.get('/vikinger/*', (req, res) => {
@@ -49,6 +54,26 @@ app.get('/hub-account-password', (req, res) => {res.sendFile(path.join(__dirname
 app.get('/hub-account-settings', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-account-settings/hub-account-settings.html'));});
 app.get('/404', (req, res) => {res.sendFile(path.join(__dirname, '404/404.html'));});
 app.get('/logged-out-and-icons', (req, res) => {res.sendFile(path.join(__dirname, 'Logged-out-and-icons/logged-out-and-icons.html'));});
+
+app.post('/send-post-request', async (req, res) => {
+  try {
+    const url = java_url; // Replace with the actual URL of your Java application
+
+    const data = {
+      title: req.body.title,
+      description: req.body.description
+    };
+
+    const response = await axios.post(url, data);
+    console.log('post');
+    // Handle the Java application response as needed
+
+    res.status(200).json({ success: true });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'An error occurred' });
+  }
+});
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
