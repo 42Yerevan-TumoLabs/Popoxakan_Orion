@@ -46,7 +46,7 @@ app.get('/hub-profile-messages', (req, res) => {res.sendFile(path.join(__dirname
 app.get('/hub-profile-requests', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-profile-requests/hub-profile-requests.html'));});
 app.get('/hub-account-info', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-account-info/hub-account-info.html'));});
 app.get('/hub-account-password', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-account-password/hub-account-password.html'));});
-app.get('/hub-account-settings', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-account-settings/'));});
+app.get('/hub-account-settings', (req, res) => {res.sendFile(path.join(__dirname, 'Hub-account-settings/hub-account-settings.html'));});
 app.get('/404', (req, res) => {res.sendFile(path.join(__dirname, '404/404.html'));});
 app.get('/logged-out-and-icons', (req, res) => {res.sendFile(path.join(__dirname, 'Logged-out-and-icons/logged-out-and-icons.html'));});
 
