@@ -3639,7 +3639,15 @@
         <!-- /FORM -->
   
         <!-- BUTTON -->
-        <a class="button secondary" href="/forums-create-discussion">+ Create Discussion</a>
+        <a id="dynamicLink" class="button secondary" href="#">+ Create Discussion</a>
+        <script>
+          var queryString = window.location.search;
+          var urlParams = new URLSearchParams(queryString);
+          const category = urlParams.get('forum_category');
+
+          var linkElement = document.getElementById("dynamicLink");
+          linkElement.href = "/forums-create-discussion?forum_category=" + category;
+        </script>
         <!-- /BUTTON -->
       </div>
       <!-- /SECTION FILTERS BAR ACTIONS -->

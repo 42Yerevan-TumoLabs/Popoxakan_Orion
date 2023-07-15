@@ -60,6 +60,8 @@ app.post('/send-post-request', async (req, res) => {
     const url = java_url; // Replace with the actual URL of your Java application
 
     const data = {
+      uid: req.body.uid,
+      forum_category: req.body.forum_category,
       title: req.body.title,
       description: req.body.description
     };

@@ -3707,11 +3707,57 @@
                   }
                 </script>
                 <!-- /BUTTON -->
-      
+<!--                <script>-->
+<!--                  const csvFilePath = "../profanity/profanity_en.csv";-->
+
+<!--                  // Read the CSV file using a library like `csv-parser`-->
+<!--                  const csv = require('csv-parser');-->
+<!--                  const fs = require('fs');-->
+
+<!--                  const profaneWords = [];-->
+
+<!--                  fs.createReadStream(csvFilePath)-->
+<!--                          .pipe(csv(['words']))-->
+<!--                          .on('data', (row) => {-->
+<!--                            profaneWords.push(row.words);-->
+<!--                          })-->
+<!--                          .on('end', () => {-->
+<!--                            // Call the function after reading the CSV-->
+<!--                            runProfanityCheck();-->
+<!--                          });-->
+
+<!--                  function checkProfanity(text) {-->
+<!--                    const textWords = text.split(" ");-->
+<!--                    for (let word of textWords) {-->
+<!--                      if (profaneWords.includes(word.toLowerCase())) {-->
+<!--                        return true;-->
+<!--                      }-->
+<!--                    }-->
+<!--                    return false;-->
+<!--                  }-->
+
+<!--                  function runProfanityCheck() {-->
+<!--                    let text = "This is some sample text";-->
+<!--                    if (checkProfanity(text)) {-->
+<!--                      console.log("Text contains profanity");-->
+<!--                    } else {-->
+<!--                      console.log("Text does not contain profanity");-->
+<!--                    }-->
+
+<!--                    text = "This text contains shit";-->
+<!--                    if (checkProfanity(text)) {-->
+<!--                      console.log("Text contains profanity");-->
+<!--                    } else {-->
+<!--                      console.log("Text does not contain profanity");-->
+<!--                    }-->
+<!--                  }-->
+
+<!--                </script>-->
                 <!-- BUTTON -->
-                <p id="postButton" class="button secondary">Create</p>
+                <a href="/profile-forum" id="postButton" class="button secondary">Create</a>
                 <script>
-                    console.log('i am here1');
+                    var queryString = window.location.search;
+                    var urlParams = new URLSearchParams(queryString);
                     document.getElementById('postButton').addEventListener('click', function() {
                       const text_title = document.getElementById('create-title');
                       const text_descr = document.getElementById('create-descr');
@@ -3720,6 +3766,8 @@
                       console.log("Title is " + t_title);
                       console.log("Description is " + t_descr);
                       const data = {
+                        uid: '42',
+                        forum_category: urlParams.get('forum_category'),
                         title: t_title,
                         description: t_descr
                       };
