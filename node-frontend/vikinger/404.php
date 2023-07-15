@@ -22,7 +22,6 @@
   } else {
     $error_image_url = vikinger_customizer_404_page_image_get_default();
   }
-
 ?>
 
 <!-- CONTENT GRID -->
