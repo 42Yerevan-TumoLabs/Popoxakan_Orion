@@ -97,7 +97,7 @@ if (!function_exists('vikinger_elementor_widgets_register')) {
             'description' => __('Controls menu item text color. ', 'vikinger'),
             'type'        => \Elementor\Controls_Manager::COLOR,
             'alpha'       => false,
-            'default'     => '#3e3f5e'
+            'default'     => '#1a1a1b'
           ]
         );
 
@@ -108,7 +108,7 @@ if (!function_exists('vikinger_elementor_widgets_register')) {
             'description' => __('Controls menu item icon color. ', 'vikinger'),
             'type'        => \Elementor\Controls_Manager::COLOR,
             'alpha'       => false,
-            'default'     => '#3e3f5e'
+            'default'     => '#1a1a1b'
           ]
         );
 
@@ -150,7 +150,7 @@ if (!function_exists('vikinger_elementor_widgets_register')) {
             'description' => __('Controls submenu item text color. ', 'vikinger'),
             'type'        => \Elementor\Controls_Manager::COLOR,
             'alpha'       => false,
-            'default'     => '#3e3f5e'
+            'default'     => '#1a1a1b'
           ]
         );
 
@@ -161,7 +161,7 @@ if (!function_exists('vikinger_elementor_widgets_register')) {
             'description' => __('Controls submenu item icon color. ', 'vikinger'),
             'type'        => \Elementor\Controls_Manager::COLOR,
             'alpha'       => false,
-            'default'     => '#3e3f5e'
+            'default'     => '#1a1a1b'
           ]
         );
 
@@ -330,7 +330,7 @@ if (!function_exists('vikinger_elementor_widgets_register')) {
             'label'       => __('Close Menu Trigger Icon - Color', 'vikinger'),
             'description' => __('Controls icon color.', 'vikinger'),
             'type'        => \Elementor\Controls_Manager::COLOR,
-            'default'     => '#3e3f5e'
+            'default'     => '#1a1a1b'
           ]
         );
 
@@ -360,7 +360,7 @@ if (!function_exists('vikinger_elementor_widgets_register')) {
             'label'       => __('Title - Color', 'vikinger'),
             'description' => __('Controls title text color.', 'vikinger'),
             'type'        => \Elementor\Controls_Manager::COLOR,
-            'default'     => '#3e3f5e'
+            'default'     => '#1a1a1b'
           ]
         );
 
@@ -392,7 +392,7 @@ if (!function_exists('vikinger_elementor_widgets_register')) {
             'description' => __('Controls menu item text color. ', 'vikinger'),
             'type'        => \Elementor\Controls_Manager::COLOR,
             'alpha'       => false,
-            'default'     => '#3e3f5e'
+            'default'     => '#1a1a1b'
           ]
         );
 

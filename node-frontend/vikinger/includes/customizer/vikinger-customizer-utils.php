@@ -354,7 +354,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Text Colors
          */
-        '--color-text'        => '#3e3f5e',
+        '--color-text'        => '#1a1a1b',
         '--color-text-alt'    => '#8f91ac',
         '--color-text-alt-2'  => '#000000',
     
@@ -362,7 +362,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
          * Icon Colors
          */
         '--color-icon'              => '#000000',
-        '--color-icon-highlighted'  => '#3e3f5e',
+        '--color-icon-highlighted'  => '#1a1a1b',
     
         /**
          * Border Colors
@@ -410,7 +410,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Loading Screen Colors
          */
-        '--color-loading-screen-background' => '#3e3f5e',
+        '--color-loading-screen-background' => '#1a1a1b',
 
         /**
          * Loading Bar Colors
@@ -1141,7 +1141,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Text Colors
          */
-        '--color-text'        => '#3e3f5e',
+        '--color-text'        => '#1a1a1b',
         '--color-text-alt'    => '#8f91ac',
         '--color-text-alt-2'  => '#000000',
     
@@ -1149,7 +1149,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
          * Icon Colors
          */
         '--color-icon'              => '#000000',
-        '--color-icon-highlighted'  => '#3e3f5e',
+        '--color-icon-highlighted'  => '#1a1a1b',
     
         /**
          * Border Colors
@@ -1197,7 +1197,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Loading Screen Colors
          */
-        '--color-loading-screen-background' => '#3e3f5e',
+        '--color-loading-screen-background' => '#1a1a1b',
 
         /**
          * Loading Bar Colors

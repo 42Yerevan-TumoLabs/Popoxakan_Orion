@@ -1543,7 +1543,7 @@ textarea::placeholder {
 }
 
 .icon-big-arrow {
-  fill: #3e3f5e;
+  fill: #1a1a1b;
   width: 8px;
   height: 12px;
 }
@@ -1595,13 +1595,13 @@ textarea::placeholder {
 
 .icon-plus-small,
 .icon-minus-small {
-  fill: #3e3f5e;
+  fill: #1a1a1b;
   width: 8px;
   height: 8px;
 }
 
 .icon-quote {
-  fill: #3e3f5e;
+  fill: #1a1a1b;
   width: 32px;
   height: 22px;
 }
@@ -2248,7 +2248,7 @@ a:hover {
       align-items: center;
   height: 48px;
   border-radius: 10px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 700;
@@ -2368,7 +2368,7 @@ a:hover {
 
 .button.white-solid {
   background-color: #fff;
-  color: #3e3f5e;
+  color: #1a1a1b;
 }
 
 .button.white {
@@ -2762,7 +2762,7 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   transition: -webkit-transform .2s ease-in-out;
   transition: transform .2s ease-in-out;
   transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
@@ -2939,7 +2939,7 @@ a:hover {
 }
 
 .tab-switch-button.active {
-  color: #3e3f5e;
+  color: #1a1a1b;
   background-color: #fff;
   cursor: auto;
 }
@@ -3139,7 +3139,7 @@ a:hover {
 .action-list .action-list-item-icon-wrap:hover .action-list-item-icon,
 .action-list .action-list-item-icon-wrap.active .action-list-item-icon,
 .action-list .action-list-item-icon-wrap.unread .action-list-item-icon {
-  fill: #3e3f5e;
+  fill: #1a1a1b;
 }
 
 .action-list .action-list-item.unread,
@@ -3409,7 +3409,7 @@ a:hover {
   height: 24px;
   padding: 0 12px;
   border-radius: 200px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -3437,7 +3437,7 @@ a:hover {
 .xm-tooltip-text {
   padding: 0 12px;
   border-radius: 200px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -3869,7 +3869,7 @@ a:hover {
   padding: 10px 0 6px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   font-size: 1.25rem;
 }
 
@@ -7814,7 +7814,7 @@ a:hover {
 }
 
 .switch-option .switch-option-meta .bold {
-  color: #3e3f5e;
+  color: #1a1a1b;
   font-weight: 700;
 }
 
@@ -9219,7 +9219,7 @@ a:hover {
   width: 18px;
   height: 18px;
   margin-left: 8px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   border-radius: 6px;
   cursor: pointer;
   transition: background-color .2s ease-in-out;
@@ -12829,7 +12829,7 @@ a:hover {
   height: 48px;
   border-radius: 10px;
   padding: 0;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 700;
@@ -13127,7 +13127,7 @@ a:hover {
   height: 48px;
   border-radius: 10px;
   padding: 0;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 700;
@@ -13893,7 +13893,7 @@ a:hover {
 }
 
 .woocommerce form .form-row .woocommerce-password-strength {
-  color: #3e3f5e;
+  color: #1a1a1b;
   font-weight: 700;
 }
 
@@ -16678,7 +16678,7 @@ a:hover {
   height: 20px;
   padding: 0 8px;
   border-radius: 200px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -17505,7 +17505,7 @@ a:hover {
   height: 60px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 700;
@@ -18075,7 +18075,7 @@ a:hover {
 }
 
 .chat-widget-header .chat-widget-close-button .chat-widget-close-button-icon {
-  fill: #3e3f5e;
+  fill: #1a1a1b;
 }
 
 /*------------------------------
@@ -20305,7 +20305,7 @@ a:hover {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 2px solid #3e3f5e;
+  border: 2px solid #1a1a1b;
   position: absolute;
   top: 1px;
   left: 0;
@@ -24556,7 +24556,7 @@ a:hover {
 .bpbmtippy-box {
   padding: 0 12px;
   border-radius: 200px;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -24702,7 +24702,7 @@ a:hover {
   padding: 0 40px;
   border-radius: 10px;
   border: none;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   color: #fff;
   font-size: 0.875rem;
   font-weight: 700;
@@ -25249,7 +25249,7 @@ form.pmpro_form #pmpro_processing_message {
 .pmpro_btn:link.pmpro_btn-cancel:link {
   color: #fff;
   text-decoration: none;
-  background-color: #3e3f5e;
+  background-color: #1a1a1b;
   box-shadow: 3px 5px 10px 0 rgba(62, 63, 94, 0.2);
 }
 
