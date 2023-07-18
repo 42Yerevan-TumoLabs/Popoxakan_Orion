@@ -310,16 +310,16 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Header Colors
          */
-        '--color-header-background'                       => '#615dfa',
-        '--color-header-logo-background'                  => '#00c7d9',
+        '--color-header-background'                       => '#242424',
+        '--color-header-logo-background'                  => '#d90000',
         '--color-header-text'                             => '#fff',
-        '--color-header-icon'                             => '#8b88ff',
+        '--color-header-icon'                             => '#909090',
         '--color-header-icon-hover'                       => '#fff',
         '--color-header-profile-settings-icon'            => '#fff',
         '--color-header-mobilemenu-trigger-icon'          => '#fff',
-        '--color-header-divider'                          => '#7a77fd',
-        '--color-header-input-background'                 => '#4e4ac8',
-        '--color-header-input-placeholder'                => '#8b88ff',
+        '--color-header-divider'                          => '#ffffff',
+        '--color-header-input-background'                 => '#000000',
+        '--color-header-input-placeholder'                => '#909090',
         '--color-header-progressbar-line-gradient-start'  => '#41efff',
         '--color-header-progressbar-line-gradient-end'    => '#41efff',
         '--color-header-progressbar-underline'            => '#4a46c8',
@@ -356,12 +356,12 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
          */
         '--color-text'        => '#3e3f5e',
         '--color-text-alt'    => '#8f91ac',
-        '--color-text-alt-2'  => '#adafca',
+        '--color-text-alt-2'  => '#000000',
     
         /**
          * Icon Colors
          */
-        '--color-icon'              => '#adafca',
+        '--color-icon'              => '#000000',
         '--color-icon-highlighted'  => '#3e3f5e',
     
         /**
@@ -373,7 +373,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Progress Bar Colors
          */
-        '--color-progressbar-line-gradient-start' => '#615dfa',
+        '--color-progressbar-line-gradient-start' => '#242424',
         '--color-progressbar-line-gradient-end'   => '#41efff',
         '--color-progressbar-underline'           => '#e7e8ee',
     
@@ -385,19 +385,19 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Primary Colors
          */
-        '--color-primary'         => '#23d2e2',
-        '--color-primary-hover'   => '#1bc5d4',
+        '--color-primary'         => '#e22323',
+        '--color-primary-hover'   => '#1a76ff',
         '--color-primary-light'   => '#41efff',
-        '--color-primary-dark'    => '#00c7d9',
-        '--color-primary-shadow'  => '#23d2e2',
+        '--color-primary-dark'    => '#d90000',
+        '--color-primary-shadow'  => '#e22323',
     
         /**
          * Secondary Colors
          */
-        '--color-secondary'         => '#615dfa',
-        '--color-secondary-hover'   => '#5753e4',
+        '--color-secondary'         => '#242424',
+        '--color-secondary-hover'   => '#1a76ff',
         '--color-secondary-dark'    => '#45437f',
-        '--color-secondary-shadow'  => '#615dfa',
+        '--color-secondary-shadow'  => '#242424',
     
         /**
          * Tertiary Colors
@@ -415,7 +415,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Loading Bar Colors
          */
-        '--color-loading-bar-1'  => '#615dfa',
+        '--color-loading-bar-1'  => '#242424',
         '--color-loading-bar-2'  => '#5d71fb',
         '--color-loading-bar-3'  => '#5983fb',
         '--color-loading-bar-4'  => '#549afc',
@@ -1097,16 +1097,16 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Header Colors
          */
-        '--color-header-background'                       => '#615dfa',
-        '--color-header-logo-background'                  => '#00c7d9',
+        '--color-header-background'                       => '#242424',
+        '--color-header-logo-background'                  => '#d90000',
         '--color-header-text'                             => '#fff',
-        '--color-header-icon'                             => '#8b88ff',
+        '--color-header-icon'                             => '#909090',
         '--color-header-icon-hover'                       => '#fff',
         '--color-header-profile-settings-icon'            => '#fff',
         '--color-header-mobilemenu-trigger-icon'          => '#fff',
-        '--color-header-divider'                          => '#7a77fd',
-        '--color-header-input-background'                 => '#4e4ac8',
-        '--color-header-input-placeholder'                => '#8b88ff',
+        '--color-header-divider'                          => '#ffffff',
+        '--color-header-input-background'                 => '#000000',
+        '--color-header-input-placeholder'                => '#909090',
         '--color-header-progressbar-line-gradient-start'  => '#41efff',
         '--color-header-progressbar-line-gradient-end'    => '#41efff',
         '--color-header-progressbar-underline'            => '#4a46c8',
@@ -1143,12 +1143,12 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
          */
         '--color-text'        => '#3e3f5e',
         '--color-text-alt'    => '#8f91ac',
-        '--color-text-alt-2'  => '#adafca',
+        '--color-text-alt-2'  => '#000000',
     
         /**
          * Icon Colors
          */
-        '--color-icon'              => '#adafca',
+        '--color-icon'              => '#000000',
         '--color-icon-highlighted'  => '#3e3f5e',
     
         /**
@@ -1160,7 +1160,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Progress Bar Colors
          */
-        '--color-progressbar-line-gradient-start' => '#615dfa',
+        '--color-progressbar-line-gradient-start' => '#242424',
         '--color-progressbar-line-gradient-end'   => '#41efff',
         '--color-progressbar-underline'           => '#e7e8ee',
     
@@ -1172,19 +1172,19 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Primary Colors
          */
-        '--color-primary'         => '#23d2e2',
-        '--color-primary-hover'   => '#1bc5d4',
+        '--color-primary'         => '#e22323',
+        '--color-primary-hover'   => '#1a76ff',
         '--color-primary-light'   => '#41efff',
-        '--color-primary-dark'    => '#00c7d9',
-        '--color-primary-shadow'  => '#23d2e2',
+        '--color-primary-dark'    => '#d90000',
+        '--color-primary-shadow'  => '#e22323',
     
         /**
          * Secondary Colors
          */
-        '--color-secondary'         => '#615dfa',
-        '--color-secondary-hover'   => '#5753e4',
+        '--color-secondary'         => '#242424',
+        '--color-secondary-hover'   => '#1a76ff',
         '--color-secondary-dark'    => '#45437f',
-        '--color-secondary-shadow'  => '#615dfa',
+        '--color-secondary-shadow'  => '#242424',
     
         /**
          * Tertiary Colors
@@ -1202,7 +1202,7 @@ function vikinger_customizer_color_preset_default_colors_get($preset_name) {
         /**
          * Loading Bar Colors
          */
-        '--color-loading-bar-1'  => '#615dfa',
+        '--color-loading-bar-1'  => '#242424',
         '--color-loading-bar-2'  => '#5d71fb',
         '--color-loading-bar-3'  => '#5983fb',
         '--color-loading-bar-4'  => '#549afc',

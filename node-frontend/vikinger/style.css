@@ -2326,11 +2326,11 @@ a:hover {
 }
 
 .button.void .loader-spinner {
-  background: linear-gradient(to right, #23d2e2 10%, rgba(35, 210, 226, 0) 42%);
+  background: linear-gradient(to right, #e22323 10%, rgba(35, 210, 226, 0) 42%);
 }
 
 .button.void .loader-spinner:before {
-  background-color: #23d2e2;
+  background-color: #e22323;
 }
 
 .button.void .button-icon {
@@ -2458,21 +2458,21 @@ a:hover {
 }
 
 .button.twitch {
-  background-color: #7b5dfa;
+  background-color: #1a76ff;
   box-shadow: 4px 7px 12px 0 rgba(123, 93, 250, 0.2);
 }
 
 .button.twitch:hover {
-  background-color: #6a4fdf;
+  background-color: #030303;
 }
 
 .button.twitter {
-  background-color: #1abcff;
+  background-color: #ff1a1a;
   box-shadow: 3px 5px 10px 0px rgba(26, 188, 255, 0.2);
 }
 
 .button.twitter:hover {
-  background-color: #0aabed;
+  background-color: #ed0a0a;
 }
 
 .button.add-field-button {
@@ -2794,11 +2794,11 @@ a:hover {
 }
 
 .social-link.twitter {
-  background-color: #1abcff;
+  background-color: #ff1a1a;
 }
 
 .social-link.twitch {
-  background-color: #7b5dfa;
+  background-color: #1a76ff;
 }
 
 .social-link.youtube {
@@ -2899,7 +2899,7 @@ a:hover {
 }
 
 .social-link.void.twitter .icon-twitter {
-  fill: #1abcff;
+  fill: #ff1a1a;
 }
 
 /*-----------------------
@@ -2979,7 +2979,7 @@ a:hover {
   height: 40px;
   border: 1px solid var(--color-border);
   border-radius: 10px;
-  color: #adafca;
+  color: #000000;
   font-size: 0.75rem;
   font-weight: 700;
   cursor: pointer;
@@ -3200,7 +3200,7 @@ a:hover {
 }
 
 .action-item .action-item-icon {
-  fill: #adafca;
+  fill: #000000;
 }
 
 .action-item .action-item-text {
@@ -5099,7 +5099,7 @@ a:hover {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: linear-gradient(-145deg, #41efff, #615dfa);
+  background: linear-gradient(-145deg, #41efff, #242424);
   margin-right: 16px;
 }
 
@@ -7413,7 +7413,7 @@ a:hover {
 }
 
 .account-stat-box.account-stat-active-users .account-stat-box-icon-wrap {
-  background-color: #615dfa;
+  background-color: #242424;
 }
 
 .account-stat-box.account-stat-visits {
@@ -7440,7 +7440,7 @@ a:hover {
 }
 
 .account-stat-box.account-stat-returning-visitors .account-stat-box-icon-wrap {
-  background-color: #23d2e2;
+  background-color: #e22323;
 }
 
 .account-stat-box .percentage-diff {
@@ -8073,7 +8073,7 @@ a:hover {
 }
 
 .earning-stat-box .earning-stat-box-icon-wrap.stat-item {
-  background-color: #615dfa;
+  background-color: #242424;
 }
 
 .earning-stat-box .earning-stat-box-icon-wrap.stat-earning {
@@ -8085,7 +8085,7 @@ a:hover {
 }
 
 .earning-stat-box .earning-stat-box-icon-wrap.stat-balance {
-  background-color: #23d2e2;
+  background-color: #e22323;
 }
 
 .earning-stat-box .earning-stat-box-title {
@@ -8487,11 +8487,11 @@ a:hover {
 }
 
 .alert-box.alert-box-success {
-  background-color: #00c7d9;
+  background-color: #d90000;
 }
 
 .alert-box.alert-box-info {
-  background-color: #615dfa;
+  background-color: #242424;
 }
 
 .alert-box.alert-box-error {
@@ -8543,11 +8543,11 @@ a:hover {
 }
 
 .alert-line.alert-line-success {
-  background-color: #00c7d9;
+  background-color: #d90000;
 }
 
 .alert-line.alert-line-info {
-  background-color: #615dfa;
+  background-color: #242424;
 }
 
 .alert-line.alert-line-error {
@@ -9027,7 +9027,7 @@ a:hover {
 }
 
 .checklist-item .checklist-item-box.active {
-  background: linear-gradient(45deg, #615dfa, #23d2e2);
+  background: linear-gradient(45deg, #242424, #e22323);
 }
 
 .checklist-item .checklist-item-box.active .checklist-item-box-icon {
@@ -9090,7 +9090,7 @@ a:hover {
 }
 
 .social-item.twitter:hover .social-item-icon {
-  fill: #1abcff;
+  fill: #ff1a1a;
 }
 
 .social-item.instagram:hover .social-item-icon {
@@ -9102,7 +9102,7 @@ a:hover {
 }
 
 .social-item.twitch:hover .social-item-icon {
-  fill: #7b5dfa;
+  fill: #1a76ff;
 }
 
 .social-item.linkedin:hover .social-item-icon {
@@ -13209,7 +13209,7 @@ a:hover {
 
 .woocommerce div.product p.stock {
   margin: 16px 0;
-  color: #00c7d9;
+  color: #d90000;
   font-size: 0.875rem;
   font-weight: 700;
 }
@@ -13988,7 +13988,7 @@ a:hover {
   padding: 20px 28px;
   border-radius: 12px;
   border: none;
-  border: 2px solid #00c7d9;
+  border: 2px solid #d90000;
   background-color: var(--color-box-background);
   position: relative;
   color: var(--color-text);
@@ -14006,7 +14006,7 @@ a:hover {
 .woocommerce .woocommerce-message.woocommerce-Message--info,
 .woocommerce .woocommerce-Message.woocommerce-message--info,
 .woocommerce .woocommerce-Message.woocommerce-Message--info {
-  border: 2px solid #615dfa;
+  border: 2px solid #242424;
 }
 
 .woocommerce .woocommerce-notice.woocommerce-message--info .button, .woocommerce .woocommerce-notice.woocommerce-Message--info .button,
@@ -15135,7 +15135,7 @@ a:hover {
 }
 
 .user-avatar.away::before {
-  background-color: #adafca;
+  background-color: #000000;
 }
 
 .user-avatar.big {
@@ -15553,7 +15553,7 @@ a:hover {
 }
 
 .ranked-user-avatar.away::before {
-  background-color: #adafca;
+  background-color: #000000;
 }
 
 .ranked-user-avatar.big {
@@ -16544,7 +16544,7 @@ a:hover {
 }
 
 .user-status .user-status-activity.activity-reaction {
-  background-color: #615dfa;
+  background-color: #242424;
 }
 
 .user-status .user-status-activity.activity-comment {
@@ -16556,7 +16556,7 @@ a:hover {
 }
 
 .user-status .user-status-activity.activity-update {
-  background-color: #23d2e2;
+  background-color: #e22323;
 }
 
 .user-status .user-status-activity .user-status-activity-icon {
@@ -16697,7 +16697,7 @@ a:hover {
 }
 
 .user-status .user-status-tag.away {
-  background-color: #adafca;
+  background-color: #000000;
 }
 
 .user-status .user-status-icon {
@@ -18183,7 +18183,7 @@ a:hover {
 
 .chat-widget-conversation .chat-widget-speaker .chat-widget-speaker-timestamp {
   margin-top: 12px;
-  color: #adafca;
+  color: #000000;
   font-size: 0.75rem;
   font-weight: 500;
 }
@@ -20297,7 +20297,7 @@ a:hover {
 }
 
 .product-preview .product-preview-info .product-preview-category.physical::before {
-  border-color: #23d2e2;
+  border-color: #e22323;
 }
 
 .product-preview .product-preview-info .product-preview-category::before {
@@ -20377,11 +20377,11 @@ a:hover {
 }
 
 .product-category-box.category-all {
-  background: url("../img/marketplace/category/01.png") no-repeat right top, linear-gradient(to right, #615dfa, #8d7aff);
+  background: url("../img/marketplace/category/01.png") no-repeat right top, linear-gradient(to right, #242424, #8d7aff);
 }
 
 .product-category-box.category-all .product-category-box-tag {
-  color: #615dfa;
+  color: #242424;
 }
 
 .product-category-box.category-featured {
@@ -20405,7 +20405,7 @@ a:hover {
 }
 
 .product-category-box.category-physical .product-category-box-tag {
-  color: #23d2e2;
+  color: #e22323;
 }
 
 .product-category-box .product-category-box-title {
@@ -24162,7 +24162,7 @@ a:hover {
 }
 
 .bp-messages-wrap .bpbm-os-theme-dark > .bpbm-os-scrollbar > .bpbm-os-scrollbar-track > .bpbm-os-scrollbar-handle {
-  background-color: #adafca;
+  background-color: #000000;
   opacity: .4;
 }
 
@@ -28992,7 +28992,7 @@ body.buddypress.activation #buddypress .bp-template-notice p, body.buddypress.re
 }
 
 body.buddypress.activation #buddypress .bp-template-notice.updated, body.buddypress.activation #buddypress .bp-template-notice.success, body.buddypress.registration #buddypress .bp-template-notice.updated, body.buddypress.registration #buddypress .bp-template-notice.success {
-  background-color: #00c7d9;
+  background-color: #d90000;
 }
 
 body.buddypress.activation #buddypress .bp-template-notice.updated::before, body.buddypress.activation #buddypress .bp-template-notice.success::before, body.buddypress.registration #buddypress .bp-template-notice.updated::before, body.buddypress.registration #buddypress .bp-template-notice.success::before {
@@ -29026,7 +29026,7 @@ body.buddypress.activation #buddypress .page form #pass-strength-result.good, bo
 }
 
 body.buddypress.activation #buddypress .page form #pass-strength-result.strong, body.buddypress.registration #buddypress .page form #pass-strength-result.strong {
-  color: #00c7d9;
+  color: #d90000;
 }
 
 body.buddypress.activation #buddypress .page form input[type="text"],

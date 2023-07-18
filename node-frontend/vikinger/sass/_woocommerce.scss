@@ -632,7 +632,7 @@
 
     p.stock {
       margin: 16px 0;
-      color: #00c7d9;
+      color: #d90000;
       font-size: $fs-14;
       font-weight: $weight-bold;
 
@@ -1447,7 +1447,7 @@
     padding: 20px 28px;
     border-radius: 12px;
     border: none;
-    border: 2px solid #00c7d9;
+    border: 2px solid #d90000;
     background-color: var(--color-box-background);
     position: relative;
     color: var(--color-text);
@@ -1457,7 +1457,7 @@
 
     &.woocommerce-message--info,
     &.woocommerce-Message--info {
-      border: 2px solid #615dfa;
+      border: 2px solid #242424;
 
       .button {
         background-color: var(--color-secondary);

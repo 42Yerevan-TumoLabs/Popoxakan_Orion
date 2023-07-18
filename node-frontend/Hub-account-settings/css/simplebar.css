@@ -140,7 +140,7 @@
 .simplebar-scrollbar:before {
   position: absolute;
   content: '';
-  background: #adafca;
+  background: #000000;
   border-radius: 7px;
   left: 0;
   right: 0;
