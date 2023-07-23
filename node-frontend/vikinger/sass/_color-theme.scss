@@ -110,7 +110,7 @@ $color-text-link: var(--color-primary-dark);
     2.6 ICON COLORS
 -----------------------*/
 $color-icon: $gray;
-$color-icon-dark: #8b88ff;
+$color-icon-dark: #909090;
 $color-icon-bold: $black;
 $color-rating-icon: $gray-lighter;
 $color-rating-icon-dark: $gray-dark;
@@ -120,7 +120,7 @@ $color-rating-icon-dark: $gray-dark;
 -----------------------*/
 $color-divider: $gray-lighter;
 $color-border: $gray-light;
-$color-border-dark: #7a77fd;
+$color-border-dark: #ffffff;
 
 /*-----------------------
     2.8 SHADOW COLORS
@@ -142,7 +142,7 @@ $shadow-darker: 3px 5px 20px 0px rgba(94, 92, 154, .16);
     2.9 INPUT COLORS
 -----------------------*/
 $color-input-placeholder: $gray;
-$color-input-placeholder-dark: #8b88ff;
+$color-input-placeholder-dark: #909090;
 
 /*------------------------------
     2.10 BUTTON
@@ -280,7 +280,7 @@ $color-activity-update: $color-pattern-4;
 /*--------------------------
     3.21 CATEGORY COLORS
 --------------------------*/
-$gradient-category-all: linear-gradient(to right, #615dfa, #8d7aff);
+$gradient-category-all: linear-gradient(to right, #242424, #8d7aff);
 $gradient-category-featured: linear-gradient(to right, #417ae1, #5aafff);
 $gradient-category-digital: linear-gradient(to right, #2ebfef, #4ce4ff);
 $gradient-category-physical: linear-gradient(to right, #17cada, #2becfe);
