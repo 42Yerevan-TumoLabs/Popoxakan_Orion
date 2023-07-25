@@ -47,5 +47,5 @@ The registration acception code maybe will drop to your email Spam.
 If link didn't work the `domain payment expired`
 
 
-### Presentation access 
+### Presentation view 
 https://www.canva.com/design/DAFo_L1vEbY/Kchfvi5utg12TFFXDvDblw/edit?utm_content=DAFo_L1vEbY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
